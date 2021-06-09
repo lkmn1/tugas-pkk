@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- My css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <!-- AOS css -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Protoype PKK</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">PKK TKJ 2</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item px-4">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item px-4">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item px-4">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+          </ul>
+        </div>
+        <i class="bi bi-cart-fill fs-3"></i>
+      </div>
+    </nav>
+
+    <!-- Mobile Nav -->
+    <div class="bottom-navbar fixed-bottom d-flex">
+      <ul class="list-none d-flex">
+        <li class="nav-mobile-item">
+          <a href=""><i class="bi bi-house-fill fs-1 mx-3"></i></a>
+        </li>
+        <li class="nav-mobile-item">
+          <a href=""><i class="bi bi-bell-fill fs-1 mx-3"></i></a>
+        </li>
+        <li class="nav-mobile-item">
+          <a href=""><i class="bi bi-search fs-1 mx-3"></i></a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Carousel -->
+    <div
+      id="carouselExampleControls"
+      class="carousel slide mt-4"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner container">
+        <div class="carousel-item active">
+          <img src="asset/img/carousel-1.jpg" class="d-block w-100 rounded" />
+        </div>
+        <div class="carousel-item">
+          <img src="asset/img/carousel-2.jpg" class="d-block w-100 rounded" />
+        </div>
+        <div class="carousel-item">
+          <img src="asset/img/carousel-3.jpg" class="d-block w-100 rounded" />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Banner -->
+    <div class="container d-flex justify-content-center text-center my-3">
+      <div class="catagory shadow rounded-pill">
+        <a href="" class="text-secondary text-decoration-none">Kursi Tamu</a>
+      </div>
+      <div class="catagory shadow mx-5 rounded-pill">
+        <a href="" class="text-secondary text-decoration-none">Meja Makan</a>
+      </div>
+      <div class="catagory shadow rounded-pill">
+        <a href="" class="text-secondary text-decoration-none">Kursi Bar</a>
+      </div>
+    </div>
+    <div class="container-fluid bg-light my-5">
+      <div class="row text-center">
+        <div class="col-md-6">
+          <h2>Tugas PKK</h2>
+          <p>ini adalah tugas PKK desain Protoype</p>
+        </div>
+        <div class="col-md-6">
+          <h2>Tugas PKK</h2>
+          <p>dari kelas XI TKJ 2</p>
+        </div>
+      </div>
+    </div>
+    <main>
+      <section class="banner container mt-5">
+        <div class="text-banner text-center col-md-6">
+          <h2 class="fw-bold py-2">Tentang layanan kami</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <p class="title">Kenapa Belanja Di kami?</p>
+          </div>
+          <div class="col-md-6">
+            <div
+              class="shadow p-3 mb-5 bg-body rounded d-flex align-items-center"
+            >
+              <i class="bi bi-shield-check fs-2"></i>
+              <h4 class="me-auto ms-auto">Aman</h4>
+            </div>
+          </div>
+          <div class="col-md-6" data-aos="fade-up">
+            <div
+              class="shadow p-3 mb-5 bg-body rounded d-flex align-items-center"
+            >
+              <i class="bi bi-emoji-sunglasses fs-2"></i>
+              <h4 class="me-auto ms-auto">Mengokil</h4>
+            </div>
+          </div>
+          <div class="col-md-6" data-aos="fade-up">
+            <div
+              class="shadow p-3 mb-5 bg-body rounded d-flex align-items-center"
+            >
+              <i class="bi bi-clock fs-2"></i>
+              <h4 class="me-auto ms-auto">Layanan 18 Jam</h4>
+            </div>
+          </div>
+          <div class="col-md-6" data-aos="fade-up">
+            <div
+              class="shadow p-3 mb-5 bg-body rounded d-flex align-items-center"
+            >
+              <i class="bi bi-box-seam fs-2"></i>
+              <h4 class="me-auto ms-auto">Pengiriman Cepat</h4>
+            </div>
+          </div>
+          <div class="col-md-6" data-aos="fade-up">
+            <div
+              class="shadow p-3 mb-5 bg-body rounded d-flex align-items-center"
+            >
+              <i class="bi bi-currency-dollar fs-2"></i>
+              <h4 class="me-auto ms-auto">Terjangkau</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Produk -->
+      <div class="container">
+        <h2>Produk Kami</h2>
+        <div class="card-group">
+          <div class="card" style="width: 18rem">
+            <img src="asset/img/card-1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Set Dapur</h5>
+              <p class="card-text">set dapur buat makan makan</p>
+              <a href="#" class="btn btn-primary"
+                ><i class="bi bi-cart-fill"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img src="asset/img/card-3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Gk tau ini apaan nemu</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary"
+                ><i class="bi bi-cart-fill"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img src="asset/img/card-2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Kursi santai</h5>
+              <p class="card-text">kursi bisa untuk di taro di ruang tamu</p>
+              <a href="#" class="btn btn-primary"
+                ><i class="bi bi-cart-fill"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="card-group">
+          <div class="card" style="width: 18rem">
+            <img src="asset/img/card-2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Set Dapur</h5>
+              <p class="card-text">set dapur buat makan makan</p>
+              <a href="#" class="btn btn-primary"
+                ><i class="bi bi-cart-fill"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img src="asset/img/card-1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Set Dapur</h5>
+              <p class="card-text">set dapur buat makan makan</p>
+              <a href="#" class="btn btn-primary"
+                ><i class="bi bi-cart-fill"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img src="asset/img/card-3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Set Dapur</h5>
+              <p class="card-text">set dapur buat makan makan</p>
+              <a href="#" class="btn btn-primary"
+                ><i class="bi bi-cart-fill"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="card-group">
+          <div class="card" style="width: 18rem">
+            <img src="asset/img/card-3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Set Dapur</h5>
+              <p class="card-text">set dapur buat makan makan</p>
+              <a href="#" class="btn btn-primary"
+                ><i class="bi bi-cart-fill"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img src="asset/img/card-2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Gk tau ini apaan nemu</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary"
+                ><i class="bi bi-cart-fill"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img src="asset/img/card-1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Kursi santai</h5>
+              <p class="card-text">kursi bisa untuk di taro di ruang tamu</p>
+              <a href="#" class="btn btn-primary"
+                ><i class="bi bi-cart-fill"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-light mt-4 px-5">
+      <div class="container">
+        <div class="row py-2">
+          <div class="col-md-4">
+            <h5>Dari kelas XI TKJ</h5>
+
+            <ul class="pt-4 list-unstyled">
+              <li><i class="bi bi-facebook"></i> facebook</li>
+              <li><i class="bi bi-instagram"></i> instagram</li>
+              <li><i class="bi bi-github"></i> github</li>
+            </ul>
+          </div>
+          <div
+            class="col-md-4 d-flex justify-content-center align-items-center"
+          >
+            <p class="pr-4">
+              created <span style="color: salmon">by</span>
+              <span class="text-info">lukman</span> with
+              <i class="bi bi-heart-fill text-danger"></i>
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h5>Temukan Kami</h5>
+            <p>Jl. Raya kaya raya no 46 kab jkt, kota Jakarta timer ke barat</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+body {
+  background-color: #e7e8e9;
+}
+img {
+  pointer-events: none;
+}
+.bottom-navbar {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+.nav-mobile-item {
+  display: none;
+}
+.bi-cart-fill:hover {
+  opacity: 0.5;
+}
+@media (max-width: 576px) {
+  .bottom-navbar {
+    display: block;
+    background-color: #fff;
+    box-shadow: 0 0.4rem 1rem 0 rgba(55, 55, 55, 0.2);
+  }
+  .nav-mobile-item {
+    display: block;
+  }
+  .bottom-navbar ul {
+    list-style: none;
+  }
+  .bottom-navbar ul li a {
+    color: black;
+    padding: 0.75rem;
+  }
+  .bottom-navbar ul li a:hover {
+    opacity: 0.5;
+  }
+}
+.catagory {
+  background-color: #fff;
+  padding: 0.5em 0;
+  width: 10rem;
+}
